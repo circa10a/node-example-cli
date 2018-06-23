@@ -1,0 +1,32 @@
+{
+  "name": "example-cli",
+  "version": "1.0.0",
+  "description": "Example Pretty CLI",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules/",
+    "lint": "./node_modules/.bin/eslint **/*.js",
+    "lint-fix": "./node_modules/.bin/eslint **/*.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "example-cli": "./index.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Caleb Lemoine",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "listr": "^0.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
