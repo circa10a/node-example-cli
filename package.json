@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
-    "commander": "^2.15.1",
+    "commander": "^5.1.0",
     "figlet": "^1.2.0",
     "inquirer": "^6.0.0",
     "listr": "^0.14.1"
